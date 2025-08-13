@@ -1,10 +1,5 @@
 # Web Dev Quiz
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-DEPLOY-ID/deploy-status)](https://app.netlify.com/sites/YOUR-SITE-NAME/deploys) 
-[![GitHub last commit](https://img.shields.io/github/last-commit/YOUR-USERNAME/YOUR-REPO)](https://github.com/YOUR-USERNAME/YOUR-REPO/commits/main)
-[![React](https://img.shields.io/badge/React-18.2-%2361DAFB)](https://reactjs.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
-
 🔗 **[Live Demo](https://siyamthanda-dlakavu-profile.netlify.app/)**
 
 ## 📝 Overview
