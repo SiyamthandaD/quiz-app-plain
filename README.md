@@ -11,14 +11,6 @@
 
 Web Dev Quiz is an interactive quiz application designed to test and improve web development knowledge through AI-powered questions and curated learning resources.
 
-```mermaid
-graph TD
-    A[User] --> B(Select Topic)
-    B --> C{Quiz Mode?}
-    C -->|Yes| D[Timed Quiz]
-    C -->|No| E[Study Resources]
-    D --> F[AI-Generated Questions]
-    E --> G[W3Schools Tutorials]
 
 ✨ Key Features
 🎯 Quiz System
