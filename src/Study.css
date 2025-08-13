@@ -1,0 +1,54 @@
+.study-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.study-container > h1{
+  color: #4caf50;
+  text-align: center;
+}
+
+.study-intro {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.topics-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.topic-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: 252525;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.topic-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.topic-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.topic-icon {
+  color: #4caf50;
+}
+
+.chevron-icon {
+  color: #999;
+}
