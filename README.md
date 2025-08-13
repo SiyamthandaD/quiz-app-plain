@@ -11,10 +11,10 @@
 
 Web Dev Quiz is an interactive quiz application designed to test and improve web development knowledge through AI-powered questions and curated learning resources.
 
-
 ✨ Key Features
+
 🎯 Quiz System
-Feature	Description
+Feature	Description:
 📚 Multi-Topic	HTML, CSS, JS, React, Python, Java, C#, C++
 🎚️ Difficulty Levels	Easy, Medium, Hard
 ⏱️ Timed Questions	60 seconds per question
