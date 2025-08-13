@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+Web Dev Quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Demo: https://siyamthanda-dlakavu-profile.netlify.app/
 
-## Available Scripts
+1. Overview 
 
-In the project directory, you can run:
+Web Dev Quiz is an interactive quiz application designed to test and improve web development knowledge. It features: 
 
-### `npm start`
+Timed quizzes on various topics (HTML, CSS, JavaScript, React, etc.). 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+AI-generated questions using Google's Gemini API. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Study resources with links to W3Schools tutorials. 
 
-### `npm test`
+Progress tracking with score summaries and explanations. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Features 
 
-### `npm run build`
+Quiz Features 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ Multiple Topics: HTML, CSS, JavaScript, React, Python, Java, C#, C++, and Software Development Concepts. 
+✅ Difficulty Levels: Easy, Medium, Hard. 
+✅ Timed Questions: 60 seconds per question. 
+✅ Instant Feedback: Correct/incorrect answers with explanations. 
+✅ Score Tracking: Final results with performance breakdown. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Study Features 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📚 Topic Selection: Choose a topic to study. 
+🔗 Curated Resources: Direct links to W3Schools tutorials, references, and examples. 
 
-### `npm run eject`
+Technical Features 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+⚡ React.js: Frontend built with React. 
+🤖 Gemini API: AI-powered question generation. 
+🚀 Netlify Deployment: Hosted on Netlify for easy access. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Installation & Setup 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Prerequisites 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Node.js (v16+). 
 
-## Learn More
+npm / Yarn. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Google Gemini API Key (for question generation). 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Steps to Run Locally 
 
-### Code Splitting
+Clone the repository: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash 
 
-### Analyzing the Bundle Size
+git clone https://github.com/your-repo/web-dev-quiz.git 
+cd web-dev-quiz 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies: 
 
-### Making a Progressive Web App
+bash 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm install 
 
-### Advanced Configuration
+Set up environment variables: 
+Create a .env file: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+env 
 
-### Deployment
+VITE_GEMINI_API_KEY=your_api_key_here 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Run the app: 
 
-### `npm run build` fails to minify
+bash 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm run dev 
+
+Build for production: 
+
+bash 
+
+npm run build 
+
+
+4. Deployment (Netlify) 
+
+Manual Deployment 
+
+Build the app: 
+
+bash 
+
+npm run build 
+
+Drag & drop the build folder into Netlify. 
+
+Automated Deployment (GitHub/GitLab) 
+
+Connect your repo to Netlify. 
+
+Set: 
+
+Build command: npm run build. 
+
+Publish directory: build. 
+
+Add environment variables (if using Gemini API). 
+
+5. File Structure 
+
+text 
+
+src/ 
+├── App.js           # Main app with routing 
+├── About.js         # About page 
+├── Study.js         # Study topics selection 
+├── StudyTopic.js    # Study resources per topic 
+├── Footer.js        # Footer component 
+├── index.js         # React entry point 
+public/ 
+├── index.html       # Base HTML 
+.env                 # Environment variables 
+
+6. API Usage (Gemini AI) 
+
+The app uses Google's Gemini API to generate quiz questions dynamically. 
+
+Prompt Structure 
+
+js 
+
+`Generate 5 ${difficulty} level MCQs about ${topic} for web development. 
+Format as JSON array with: 
+{ 
+  "question": "Question text", 
+  "options": ["Option1", "Option2", "Option3", "Option4"], 
+  "correctAnswer": "CorrectOption", 
+  "explanation": "Brief explanation" 
+}` 
+
+7. Future Improvements 
+
+🔹 User Accounts: Save progress and scores. 
+🔹 Leaderboard: Compare scores with others. 
+🔹 More Topics: Expand to backend (Node.js, SQL). 
+🔹 Dark/Light Mode: Better theme support. 
