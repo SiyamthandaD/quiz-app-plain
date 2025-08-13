@@ -81,19 +81,3 @@ Leaderboard system
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 <div align="center"> <sub>Built with ❤️ by Siyamthanda Dlakavu</sub> </div> ```
-Key GitHub Markdown Features Used:
-Badges: Status badges at the top using shields.io
-
-Mermaid Diagrams: For visual documentation (GitHub now supports this natively)
-
-Tables: For clean feature presentation
-
-Code Blocks: With syntax highlighting
-
-Task Lists: For roadmap items
-
-Emojis: For visual organization
-
-Relative Links: For license file
-
-Center Alignment: For footer
