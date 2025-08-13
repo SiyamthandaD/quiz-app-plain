@@ -40,7 +40,7 @@ Google Gemini API key
 
 bash
 # Clone repository
-(https://github.com/SiyamthandaD/quiz-app-plain/blob/master/README.md)
+(https://github.com/SiyamthandaD/quiz-app-plain)
 cd web-dev-quiz
 
 # Install dependencies
