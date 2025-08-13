@@ -80,4 +80,4 @@ Leaderboard system
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-<div align="center"> <sub>Built with ❤️ by Siyamthanda Dlakavu</sub> </div> ```
+<div align="center"> <sub>Built with ❤️ by Siyamthanda Dlakavu</sub> </div>
