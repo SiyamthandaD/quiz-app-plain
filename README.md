@@ -40,7 +40,7 @@ Google Gemini API key
 
 bash
 # Clone repository
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+(https://github.com/SiyamthandaD/quiz-app-plain/blob/master/README.md)
 cd web-dev-quiz
 
 # Install dependencies
@@ -51,14 +51,7 @@ echo "VITE_GEMINI_API_KEY=your_api_key" > .env
 
 # Start development server
 npm run dev
-📂 Project Structure
-text
-src/
-├── components/      # Reusable components
-├── pages/           # Application views
-├── services/        # API integrations
-├── utils/           # Helper functions
-public/              # Static assets
+
 🤖 AI Implementation
 javascript
 // Example question generation
