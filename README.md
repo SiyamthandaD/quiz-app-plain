@@ -1,6 +1,6 @@
 # Web Dev Quiz
 
-🔗 **[Live Demo](https://web-quizv1.netlify.app/study)**
+🔗 **[Live Demo](https://web-quizv1.netlify.app/)**
 
 ## 📝 Overview
 
