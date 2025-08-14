@@ -1,6 +1,6 @@
 # Web Dev Quiz
 
-🔗 **[Live Demo](https://siyamthanda-dlakavu-profile.netlify.app/)**
+🔗 **[Live Demo](https://web-quizv1.netlify.app/study)**
 
 ## 📝 Overview
 
