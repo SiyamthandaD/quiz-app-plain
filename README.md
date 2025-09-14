@@ -1,13 +1,9 @@
 # Web Dev Quiz
-
-🔗 **[Live Demo]** (https://web-quizv1.netlify.app/)
-
-## 📝 Overview
-
 An interactive quiz application designed to test and improve web development knowledge through AI-powered questions and curated learning resources.
 
-## ✨ Features
+🚀 **Live Demo:** https://web-quizv1.netlify.app/
 
+## ✨ Features
 * 🧠 Quiz System
 
 ## Feature	Description
@@ -35,25 +31,28 @@ An interactive quiz application designed to test and improve web development kno
   - Google Gemini API key.
   - bash.
 
-# Clone repository
-(https://github.com/SiyamthandaD/quiz-app-plain)
-* cd web-dev-quiz.
+* Clone repository
+  ```bash
+  (https://github.com/SiyamthandaD/quiz-app-plain)
+  cd web-dev-quiz.
 
-# Install dependencies
-* npm install.
+* Install dependencies
+  ```bash
+  npm install.
 
-# Configure environment
-* echo "VITE_GEMINI_API_KEY=your_api_key" > .env
+* Configure environment
+  ```bash
+  echo "VITE_GEMINI_API_KEY=your_api_key" > .env
 
-# Start development server
-* npm run dev.
+* Start development server
+  ```bash
+  npm run dev.
 
-## 🤖 AI Implementation
-javascript
-
-// Example question generation
-
-const generateQuestions = async (topic, difficulty) => {
+* 🤖 AI Implementation
+  ```javascript
+  // Example question generation
+  
+  const generateQuestions = async (topic, difficulty) => {
   const prompt = `Generate 5 ${difficulty} MCQs about ${topic} in JSON format with:
   - question
   - options
@@ -62,7 +61,7 @@ const generateQuestions = async (topic, difficulty) => {
   
   const response = await gemini.generateContent(prompt);
   return JSON.parse(response);
-}
+  }
 
 ## 🔜 Roadmap
 * User authentication.
